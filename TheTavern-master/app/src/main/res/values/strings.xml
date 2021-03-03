@@ -18,4 +18,8 @@
     <string name="Send">Send</string>
     <string name="Cancel">Cancel</string>
     <string name="TheTavern">The Tavern</string>
+    <string name="NewCharacter">New Character</string>
+    <string name="NewCharacterAbridged">New Character Abridged</string>
+    <string name="Rules">Rules</string>
+    <string name="ViewCharacter">View Characters</string>
 </resources>

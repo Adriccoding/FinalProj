@@ -16,19 +16,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/banner" />
 
-    <TextView
-        android:id="@+id/tvRegister"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:text="@string/Register"
-        android:textColor="@color/black"
-        android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <EditText
         android:id="@+id/etEmailRegister"
         android:layout_width="wrap_content"
@@ -85,11 +72,10 @@
         android:id="@+id/imgScroll"
         android:layout_width="213dp"
         android:layout_height="107dp"
-        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvRegister"
-        app:srcCompat="@drawable/penandscroll" />
+        app:srcCompat="@drawable/penandscroll"
+        tools:layout_editor_absoluteY="152dp" />
 
     <ImageView
         android:id="@+id/imgRegGirl"
