@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundimage"
-    tools:context=".NewCharacterActivity">
+    tools:context=".BackgroundCharCreation">
 
     <RadioGroup
         android:id="@+id/raceRadioGroup"
-        android:layout_width="145dp"
-        android:layout_height="464dp"
+        android:layout_width="160dp"
+        android:layout_height="454dp"
         android:layout_marginTop="144dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.304"
@@ -19,52 +19,55 @@
 
         <RadioButton
             android:id="@+id/dwarfRadio"
-            android:layout_width="145dp"
-            android:layout_height="102dp"
-            android:background="@drawable/dwarffemaletoken"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+
             android:buttonTint="@color/black"
-            android:text="                      Dwarf"
+            android:text="Acolyte"
             android:textColor="@android:color/black" />
 
         <RadioButton
-            android:id="@+id/elfRadio"
-            android:layout_width="145dp"
-            android:layout_height="99dp"
-            android:background="@drawable/elfmaletoken"
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
             android:buttonTint="@color/black"
-            android:text="                      Elf"
-            android:textColor="@android:color/black" />
 
-        <RadioButton
-            android:id="@+id/humanRadio"
-            android:layout_width="146dp"
-            android:layout_height="89dp"
-            android:background="@drawable/humanmaletoken"
-            android:buttonTint="@color/black"
+            android:text="Folk Hero"
 
             android:textColor="@android:color/black" />
 
         <RadioButton
             android:id="@+id/dragonRadio"
-            android:layout_width="143dp"
-            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
             android:buttonTint="@color/black"
-            android:text="Dragon Born"
+            android:text="Noble"
             android:textColor="@android:color/black" />
 
         <RadioButton
-            android:id="@+id/gnomeRadio"
-            android:layout_width="143dp"
-            android:layout_height="30dp"
+            android:id="@+id/humanRadio"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
             android:buttonTint="@color/black"
-            android:text="Gnome"
+
+            android:text="Noble"
+
             android:textColor="@android:color/black" />
+
         <RadioButton
-            android:id="@+id/tieflingRadio"
-            android:layout_width="143dp"
-            android:layout_height="30dp"
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
             android:buttonTint="@color/black"
-            android:text="Tiefline"
+            android:text="Sage"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/elfRadio"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:buttonTint="@color/black"
+            android:text="Soldier"
             android:textColor="@android:color/black" />
 
     </RadioGroup>
@@ -87,13 +90,16 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="301dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="48dp"
         android:fontFamily="@font/titlefont"
-        android:text="Chooze your Race"
+        android:text="Chooze your Background"
         android:textColor="#000000"
         android:textSize="30sp"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="63dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

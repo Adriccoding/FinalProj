@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".RecommendedCharacter"></activity>
+        <activity android:name=".WeaponCharCreation"></activity>
+        <activity android:name=".BackgroundCharCreation" />
+        <activity android:name=".ClassPageCharCreation" />
+        <activity android:name=".RecommendedCharacter" />
         <activity android:name=".ViewCharacterActivity" />
         <activity android:name=".RulesActivity" />
         <activity android:name=".NewCharacterActivity" />

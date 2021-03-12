@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backgroundimage"
-    tools:context=".NewCharacterActivity">
+    tools:context=".ClassPageCharCreation">
 
     <RadioGroup
         android:id="@+id/raceRadioGroup"
-        android:layout_width="145dp"
-        android:layout_height="464dp"
+        android:layout_width="296dp"
+        android:layout_height="291dp"
         android:layout_marginTop="144dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.304"
@@ -21,25 +21,25 @@
             android:id="@+id/dwarfRadio"
             android:layout_width="145dp"
             android:layout_height="102dp"
-            android:background="@drawable/dwarffemaletoken"
+            android:background="@drawable/paladintoken"
             android:buttonTint="@color/black"
-            android:text="                      Dwarf"
+            android:text="                      Paladin"
             android:textColor="@android:color/black" />
 
         <RadioButton
             android:id="@+id/elfRadio"
             android:layout_width="145dp"
             android:layout_height="99dp"
-            android:background="@drawable/elfmaletoken"
+            android:background="@drawable/monktoken"
             android:buttonTint="@color/black"
-            android:text="                      Elf"
+            android:text="                      Monk"
             android:textColor="@android:color/black" />
 
         <RadioButton
             android:id="@+id/humanRadio"
             android:layout_width="146dp"
             android:layout_height="89dp"
-            android:background="@drawable/humanmaletoken"
+
             android:buttonTint="@color/black"
 
             android:textColor="@android:color/black" />
@@ -49,22 +49,7 @@
             android:layout_width="143dp"
             android:layout_height="30dp"
             android:buttonTint="@color/black"
-            android:text="Dragon Born"
-            android:textColor="@android:color/black" />
-
-        <RadioButton
-            android:id="@+id/gnomeRadio"
-            android:layout_width="143dp"
-            android:layout_height="30dp"
-            android:buttonTint="@color/black"
-            android:text="Gnome"
-            android:textColor="@android:color/black" />
-        <RadioButton
-            android:id="@+id/tieflingRadio"
-            android:layout_width="143dp"
-            android:layout_height="30dp"
-            android:buttonTint="@color/black"
-            android:text="Tiefline"
+            android:text="RadioButton"
             android:textColor="@android:color/black" />
 
     </RadioGroup>
@@ -90,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/titlefont"
-        android:text="Chooze your Race"
+        android:text="Chooze your Clazz"
         android:textColor="#000000"
         android:textSize="30sp"
         tools:layout_editor_absoluteX="35dp"
